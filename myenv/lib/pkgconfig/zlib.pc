@@ -1,0 +1,13 @@
+prefix=/Users/ayush/Desktop/AI BLR/multilingual/myenv
+exec_prefix=/Users/ayush/Desktop/AI BLR/multilingual/myenv
+libdir=/Users/ayush/Desktop/AI BLR/multilingual/myenv/lib
+sharedlibdir=/Users/ayush/Desktop/AI BLR/multilingual/myenv/lib
+includedir=/Users/ayush/Desktop/AI BLR/multilingual/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

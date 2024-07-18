@@ -1,0 +1,7 @@
+Flask
+weaviate-client
+Flask
+pandas
+numpy
+scikit-learn
+cohere
